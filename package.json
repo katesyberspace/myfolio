@@ -18,5 +18,5 @@
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://katesyberspace.github.io/folio"
+  "homepage": "https://katesyberspace.github.io/"
 }

@@ -1,0 +1,53 @@
+.menu-wrapper {
+  position: relative;
+  line-height: 2.5em;
+}
+
+.menu-icon {
+  width: 50px;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  transform: rotate(0deg);
+  transition: transform .5s ease-in-out;
+  outline: none;
+}
+
+
+
+.menu-icon i {
+  font-size: 2em;
+  color: whitesmoke;
+}
+
+.rotated {
+  transform: rotate(180deg)
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  background: darkorchid;
+  width: fit-content;
+  position: absolute;
+  top: 80%;
+  right: 25%;
+  z-index: 2;
+  padding: 5px;
+}
+
+.menu a {
+  font-size: .7em;
+}
+
+.menu a:hover {
+  font-style: italic;
+  background-color: aquamarine;
+  color: darkorchid;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  line-height: 1em;
+}

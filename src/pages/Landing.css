@@ -1,0 +1,95 @@
+.landing-grid {
+  display: grid;
+  grid-template-areas:  ' welcome welcome welcome   '
+                        ' welcome welcome welcome   '
+                        ' welcome welcome welcome   '
+                        ' skills skills skills  ';
+ overflow: hidden;                       
+}
+                      
+
+.welcome h1 {
+  font-weight: 400;
+  margin: 0;
+  font-size: 3em;
+}
+
+.welcome {
+  grid-area: welcome;
+  margin: 10%;
+}
+
+
+
+.skills {
+  grid-area: skills;
+  display: grid;
+  grid-template-areas:  'html css ruby'
+                        'js node react';
+  justify-content: center;
+  margin: 0 10%;
+;
+}
+
+.skills section {
+  background-color: aqua;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  line-height: 90px;;
+  margin: 3px;
+  padding: 0;
+}
+
+.html{
+  grid-area: html;
+  animation: html .5s ease-in-out; 
+}
+
+@keyframes html {
+  0% {transform: translateX(-100px)}
+  100% {transform: translateX(0px)} 
+}
+
+.css{
+  grid-area: css;
+  animation: css 1s ease-in-out;
+}
+
+@keyframes css {
+  0% {transform: translateY(-500px)}
+  100% {transform: translateY(0px)} 
+}
+
+.ruby{
+  grid-area: ruby;
+  animation: ruby .8s ease-in-out;
+}
+
+@keyframes ruby {
+  0% {transform: translateX(100px)}
+  100% {transform: translateX(0px)} 
+}
+
+.js{
+  grid-area: js;
+  animation: html .9s ease-in-out; 
+}
+
+.node{
+  grid-area: node;
+  animation: node 1s ease-in-out;
+}
+
+@keyframes node {
+  0% {transform: translateY(300px)}
+  100% {transform: translateY(0px)} 
+}
+
+.react{
+  grid-area: react;
+  animation: ruby 1s ease-in-out;
+
+}
+
